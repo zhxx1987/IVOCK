@@ -1,0 +1,103 @@
+//#include <cstdio>
+//#include "read_particles.h"
+//#include "render.h"
+//#include "shadow.h"
+//#include "write_sgi.h"
+//double frand(double a, double b)
+//{
+//	return (((double)rand())/((double)RAND_MAX)*(b-a))+a;
+//}
+//int
+//main(int argc,
+//	 char **argv)
+//{
+//	if(argc<7){
+//		std::printf("usage: krak <particle_file_format> <radius> <opacity> <light_x> <light_y> <light_z> [quality] [start_frame] [frame_skip]\n");
+//		return 0;
+//	}
+//
+//
+//	const char *filename_format=argv[1];
+//
+//
+//	Array1<Vec3f> x, base_rgb, lit_rgb;
+//	float radius, opacity;
+//	Vec3f light_position;
+//	std::sscanf(argv[2], "%f", &radius);
+//	std::sscanf(argv[3], "%f", &opacity);
+//	std::sscanf(argv[4], "%f", &light_position[0]);
+//	std::sscanf(argv[5], "%f", &light_position[1]);
+//	std::sscanf(argv[6], "%f", &light_position[2]);
+//
+//	float quality_factor=1;
+//	int start_frame=1, frame_skip=1;
+//	if(argc>7) std::sscanf(argv[7], "%f", &quality_factor);
+//	if(argc>8) std::sscanf(argv[8], "%d", &start_frame);
+//	if(argc>9) std::sscanf(argv[9], "%d", &frame_skip);
+//
+//	std::printf("radius %f, opacity %f, light (%f %f %f)\n", radius, opacity,
+//		light_position[0], light_position[1], light_position[2]);
+//
+//	Array1<float> illum;
+//	Array2f shadow_map;
+//	Array2<Vec3f> image(1440,960);
+//	Array1<Vec3f> ball;
+//	ball.resize(163840);
+//	int num_get = 0;
+//	while(num_get<163840)
+//	{
+//		float x = frand(-1, 1);
+//		float y = frand(-1, 1);
+//		float z = frand(-1, 1);
+//		if(sqrt(x*x+y*y+z*z)<=1.005&&sqrt(x*x+y*y+z*z)>=0.995)
+//		{
+//			ball[num_get] = Vec3f(x,y,z);
+//			num_get++;
+//		}
+//	}
+//	for(int f=start_frame; true; f+=frame_skip){
+//
+//		Vec3f ball_position = Vec3f(-4.5-0.005*4 + 0.01*4.0*(double)f, 0,0);
+//		Array1<Vec3f> y;
+//		if(ball_position[0]>0)
+//		{
+//			ball_position[0]=0.04;
+//		}
+//
+//
+//		if(!read_particles(x, filename_format, f)){
+//			break;
+//		}
+//		y.resize(x.size()+163840);
+//		base_rgb.resize(x.size()+163840);
+//		lit_rgb.resize(x.size()+163840);
+//		for(int p=0;p<x.size();p++)
+//		{
+//			y[p]=x[p];
+//			base_rgb[p]=Vec3f(0.0, 0.0, 0);
+//			lit_rgb[p]=Vec3f(.7, .7, .8);
+//		}
+//		for (int p = x.size(); p<x.size()+163840;p++)
+//		{
+//			y[p] = ball[p-x.size()]+ball_position;
+//
+//			base_rgb[p] = Vec3f(0.4, 0.3, 0.2);
+//			lit_rgb[p] = Vec3f(.7, .6, .5);
+//
+//		}
+//
+//
+//
+//		if(!compute_shadows(y, radius, opacity, light_position, quality_factor, illum, shadow_map)){
+//			break;
+//		}
+//		write_sgi(shadow_map, false, "shadow%04d.sgi", f);
+//
+//		render_smoke(y, illum, base_rgb, lit_rgb,radius, opacity, light_position,  Vec3f(1,1,1), 
+//			Vec3f(0,40,0), Vec3f(0,0,2), 3, image);
+//		write_sgi(image, false, "frame%04d.sgi", f);
+//	}
+//
+//	return 0;
+//}
+//
