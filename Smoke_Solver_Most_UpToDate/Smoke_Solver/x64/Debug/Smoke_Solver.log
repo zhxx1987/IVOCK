@@ -1,0 +1,412 @@
+﻿Build started 01/11/2014 8:49:48 AM.
+     1>Project "C:\Users\xinxin\Dropbox\xinxin_code\Smoke_Solver\Smoke_Solver\Smoke_Solver.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Debug\Smoke_Solver.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /IC:\Users\xinxin\Desktop\tbb43_20140724oss_win\bin\..\include /IC:\Users\xinxin\Dropbox\xinxin_code\TBB_Multigrid\TBB_Multigrid /IC:\Users\xinxin\Dropbox\xinxin_code\Smoke_Solver\Smoke_Solver /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt "..\..\..\xinxin's code\TBB_Multigrid\TBB_Multigrid\main.cpp" Smoke_solver3D.cpp
+         Smoke_solver3D.cpp
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(120): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(120): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(120): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(120): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(120): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(120): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(128): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(135): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(135): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(135): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(139): warning C4552: '+' : operator has no effect; expected operator with side-effect
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(140): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(141): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(142): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(178): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(191): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(192): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(193): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(238): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(239): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(240): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(241): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(301): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(342): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(342): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(342): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(342): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(342): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(342): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(358): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(135): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(135): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(135): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(139): warning C4552: '+' : operator has no effect; expected operator with side-effect
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(140): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(141): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(142): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(191): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(192): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(193): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(238): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(239): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(240): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(241): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\Smoke_solver3D.h(137): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\Smoke_solver3D.h(138): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\Smoke_solver3D.h(139): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\Smoke_solver3D.h(140): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\Smoke_solver3D.h(141): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(115): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(115): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(172): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(191): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(172): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(191): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(204): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>Smoke_solver3D.cpp(211): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(239): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(239): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(251): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(275): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(339): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(340): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(341): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(347): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(347): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(347): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(339): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(340): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(341): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(347): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(347): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(347): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(366): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Smoke_solver3D.cpp(371): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(371): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(371): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(373): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(381): warning C4018: '>' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(383): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>Smoke_solver3D.cpp(384): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>Smoke_solver3D.cpp(385): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>Smoke_solver3D.cpp(398): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(415): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(461): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(462): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(463): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(509): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(510): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(511): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(557): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(558): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(559): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(461): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(462): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(463): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(509): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(510): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(511): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(557): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(558): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(559): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(593): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(755): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>Smoke_solver3D.cpp(758): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>Smoke_solver3D.cpp(762): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>Smoke_solver3D.cpp(792): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(792): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(904): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>Smoke_solver3D.cpp(907): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>Smoke_solver3D.cpp(911): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>Smoke_solver3D.cpp(959): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(960): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(961): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(967): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(967): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(967): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(959): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(960): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(961): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(967): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(967): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(967): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(45): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(24) : while compiling class template member function 'void Buffer3D<T>::init(uint,uint,uint,double,double,double,double)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(132) : see reference to class template instantiation 'Buffer3D<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(49): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(49): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(53): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(53): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(53): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(84): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(63) : while compiling class template member function 'void Buffer3D<T>::init(uint,uint,uint)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(88): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(88): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(92): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(92): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(92): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(163): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+                 c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(150) : while compiling class template member function 'float Buffer3D<T>::sample_linear(double,double,double)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(164): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(165): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(166): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(167): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(168): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(169): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(84): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(63) : while compiling class template member function 'void Buffer3D<T>::init(uint,uint,uint)'
+                 with
+                 [
+                     T=char
+                 ]
+                 c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\Smoke_solver3D.h(34) : see reference to class template instantiation 'Buffer3D<T>' being compiled
+                 with
+                 [
+                     T=char
+                 ]
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(88): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(88): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(92): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(92): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(92): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(131): warning C4018: '>=' : signed/unsigned mismatch
+                 c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(130) : while compiling class template member function 'float Buffer3D<T>::at(int,int,int)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(131): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(131): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(146): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+                 c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(145) : while compiling class template member function 'float Buffer3D<T>::lerp(float,float,float)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>C:\Users\xinxin\Dropbox\xinxin_code\TBB_Multigrid\TBB_Multigrid\Multigrid3D.h(365): warning C4018: '<' : signed/unsigned mismatch
+                 C:\Users\xinxin\Dropbox\xinxin_code\TBB_Multigrid\TBB_Multigrid\Multigrid3D.h(171) : while compiling class template member function 'void gf::MultiGridSolver3D<T>::m_Red_Black_Gauss(gf::uniform_grid_descriptor_3D &,Buffer3D<T> &,Buffer3D<T> &,Buffer3D<T> &,int,double)'
+                 with
+                 [
+                     T=float
+                 ]
+                 C:\Users\xinxin\Dropbox\xinxin_code\TBB_Multigrid\TBB_Multigrid\Multigrid3D.h(606) : while compiling class template member function 'void gf::MultiGridSolver3D<T>::m_Vcycle(Buffer3D<T> *,Buffer3D<T> *,T,T &,int)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\Smoke_solver3D.h(35) : see reference to class template instantiation 'gf::MultiGridSolver3D<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>C:\Users\xinxin\Dropbox\xinxin_code\TBB_Multigrid\TBB_Multigrid\Multigrid3D.h(365): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\xinxin\Dropbox\xinxin_code\TBB_Multigrid\TBB_Multigrid\Multigrid3D.h(365): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\xinxin\Dropbox\xinxin_code\TBB_Multigrid\TBB_Multigrid\Multigrid3D.h(398): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\xinxin\Dropbox\xinxin_code\TBB_Multigrid\TBB_Multigrid\Multigrid3D.h(414): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\xinxin\Dropbox\xinxin_code\TBB_Multigrid\TBB_Multigrid\Multigrid3D.h(414): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\xinxin\Dropbox\xinxin_code\TBB_Multigrid\TBB_Multigrid\Multigrid3D.h(414): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\xinxin\Dropbox\xinxin_code\TBB_Multigrid\TBB_Multigrid\Multigrid3D.h(447): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\xinxin\Dropbox\xinxin_code\TBB_Multigrid\TBB_Multigrid\Multigrid3D.h(545): warning C4018: '<' : signed/unsigned mismatch
+                 C:\Users\xinxin\Dropbox\xinxin_code\TBB_Multigrid\TBB_Multigrid\Multigrid3D.h(523) : while compiling class template member function 'void gf::MultiGridSolver3D<T>::m_Restrict(gf::uniform_grid_descriptor_3D &,gf::uniform_grid_descriptor_3D &,Buffer3D<T> &,Buffer3D<T> &)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>C:\Users\xinxin\Dropbox\xinxin_code\TBB_Multigrid\TBB_Multigrid\Multigrid3D.h(545): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\xinxin\Dropbox\xinxin_code\TBB_Multigrid\TBB_Multigrid\Multigrid3D.h(545): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\xinxin\Dropbox\xinxin_code\TBB_Multigrid\TBB_Multigrid\Multigrid3D.h(592): warning C4018: '<' : signed/unsigned mismatch
+                 C:\Users\xinxin\Dropbox\xinxin_code\TBB_Multigrid\TBB_Multigrid\Multigrid3D.h(577) : while compiling class template member function 'void gf::MultiGridSolver3D<T>::m_Prolongate(gf::uniform_grid_descriptor_3D &,gf::uniform_grid_descriptor_3D &,Buffer3D<T> &,Buffer3D<T> &)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>C:\Users\xinxin\Dropbox\xinxin_code\TBB_Multigrid\TBB_Multigrid\Multigrid3D.h(592): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\xinxin\Dropbox\xinxin_code\TBB_Multigrid\TBB_Multigrid\Multigrid3D.h(592): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\xinxin\Dropbox\xinxin_code\TBB_Multigrid\TBB_Multigrid\Multigrid3D.h(475): warning C4018: '<' : signed/unsigned mismatch
+                 C:\Users\xinxin\Dropbox\xinxin_code\TBB_Multigrid\TBB_Multigrid\Multigrid3D.h(460) : while compiling class template member function 'void gf::MultiGridSolver3D<T>::m_ComputeResidual(gf::uniform_grid_descriptor_3D &,Buffer3D<T> &,Buffer3D<T> &,Buffer3D<T> &)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>C:\Users\xinxin\Dropbox\xinxin_code\TBB_Multigrid\TBB_Multigrid\Multigrid3D.h(475): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\xinxin\Dropbox\xinxin_code\TBB_Multigrid\TBB_Multigrid\Multigrid3D.h(475): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\xinxin\Dropbox\xinxin_code\TBB_Multigrid\TBB_Multigrid\Multigrid3D.h(365): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\xinxin\Dropbox\xinxin_code\TBB_Multigrid\TBB_Multigrid\Multigrid3D.h(365): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\xinxin\Dropbox\xinxin_code\TBB_Multigrid\TBB_Multigrid\Multigrid3D.h(365): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\xinxin\Dropbox\xinxin_code\TBB_Multigrid\TBB_Multigrid\Multigrid3D.h(398): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\xinxin\Dropbox\xinxin_code\TBB_Multigrid\TBB_Multigrid\Multigrid3D.h(414): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\xinxin\Dropbox\xinxin_code\TBB_Multigrid\TBB_Multigrid\Multigrid3D.h(414): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\xinxin\Dropbox\xinxin_code\TBB_Multigrid\TBB_Multigrid\Multigrid3D.h(414): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\xinxin\Dropbox\xinxin_code\TBB_Multigrid\TBB_Multigrid\Multigrid3D.h(447): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\xinxin\Dropbox\xinxin_code\TBB_Multigrid\TBB_Multigrid\Multigrid3D.h(545): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\xinxin\Dropbox\xinxin_code\TBB_Multigrid\TBB_Multigrid\Multigrid3D.h(545): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\xinxin\Dropbox\xinxin_code\TBB_Multigrid\TBB_Multigrid\Multigrid3D.h(545): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\xinxin\Dropbox\xinxin_code\TBB_Multigrid\TBB_Multigrid\Multigrid3D.h(592): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\xinxin\Dropbox\xinxin_code\TBB_Multigrid\TBB_Multigrid\Multigrid3D.h(592): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\xinxin\Dropbox\xinxin_code\TBB_Multigrid\TBB_Multigrid\Multigrid3D.h(592): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\xinxin\Dropbox\xinxin_code\TBB_Multigrid\TBB_Multigrid\Multigrid3D.h(475): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\xinxin\Dropbox\xinxin_code\TBB_Multigrid\TBB_Multigrid\Multigrid3D.h(475): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\xinxin\Dropbox\xinxin_code\TBB_Multigrid\TBB_Multigrid\Multigrid3D.h(475): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+         Compiling...
+         main.cpp
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(120): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(120): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(120): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(120): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(120): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(120): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(128): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(135): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(135): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(135): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(139): warning C4552: '+' : operator has no effect; expected operator with side-effect
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(140): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(141): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(142): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(178): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(191): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(192): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(193): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(238): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(239): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(240): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(241): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(301): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(342): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(342): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(342): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(342): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(342): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(342): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(358): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(135): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(135): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(135): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(139): warning C4552: '+' : operator has no effect; expected operator with side-effect
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(140): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(141): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(142): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(191): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(192): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(193): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(238): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(239): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(240): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(241): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>C:\Users\xinxin\Dropbox\xinxin_code\Smoke_Solver\Smoke_Solver\Smoke_solver3D.h(137): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\xinxin\Dropbox\xinxin_code\Smoke_Solver\Smoke_Solver\Smoke_solver3D.h(138): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\xinxin\Dropbox\xinxin_code\Smoke_Solver\Smoke_Solver\Smoke_solver3D.h(139): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\xinxin\Dropbox\xinxin_code\Smoke_Solver\Smoke_Solver\Smoke_solver3D.h(140): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\xinxin\Dropbox\xinxin_code\Smoke_Solver\Smoke_Solver\Smoke_solver3D.h(141): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\xinxin's code\TBB_Multigrid\TBB_Multigrid\main.cpp(117): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\..\xinxin's code\TBB_Multigrid\TBB_Multigrid\main.cpp(118): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>..\..\..\xinxin's code\TBB_Multigrid\TBB_Multigrid\main.cpp(196): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(45): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(24) : while compiling class template member function 'void Buffer3D<T>::init(uint,uint,uint,double,double,double,double)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_particle.h(132) : see reference to class template instantiation 'Buffer3D<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(49): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(49): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(53): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(53): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(53): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(84): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(63) : while compiling class template member function 'void Buffer3D<T>::init(uint,uint,uint)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(88): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(88): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(92): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(92): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(92): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(163): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+                 c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(150) : while compiling class template member function 'float Buffer3D<T>::sample_linear(double,double,double)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(164): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(165): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(166): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(167): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(168): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(169): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(84): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(63) : while compiling class template member function 'void Buffer3D<T>::init(uint,uint,uint)'
+                 with
+                 [
+                     T=char
+                 ]
+                 C:\Users\xinxin\Dropbox\xinxin_code\Smoke_Solver\Smoke_Solver\Smoke_solver3D.h(34) : see reference to class template instantiation 'Buffer3D<T>' being compiled
+                 with
+                 [
+                     T=char
+                 ]
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(88): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(88): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(92): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(92): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(92): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(131): warning C4018: '>=' : signed/unsigned mismatch
+                 c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(130) : while compiling class template member function 'float Buffer3D<T>::at(int,int,int)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(131): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(131): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(146): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+                 c:\users\xinxin\dropbox\xinxin_code\smoke_solver\smoke_solver\fluid_buffer3D.h(145) : while compiling class template member function 'float Buffer3D<T>::lerp(float,float,float)'
+                 with
+                 [
+                     T=float
+                 ]
+         Generating Code...
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\xinxin\Dropbox\xinxin_code\Smoke_Solver\x64\Debug\Smoke_Solver.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\xinxin\Desktop\tbb43_20140724oss_win\bin\..\lib\intel64\vc_mt /LIBPATH:C:\Users\xinxin\Desktop\tbb43_20140724oss_win\bin\..\lib\intel64\vc10 tbb_debug.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\Smoke_Solver.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\xinxin\Dropbox\xinxin_code\Smoke_Solver\x64\Debug\Smoke_Solver.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\xinxin\Dropbox\xinxin_code\Smoke_Solver\x64\Debug\Smoke_Solver.lib" /MACHINE:X64 x64\Debug\Smoke_Solver.exe.embed.manifest.res
+         x64\Debug\main.obj
+         x64\Debug\Smoke_solver3D.obj
+         Smoke_Solver.vcxproj -> C:\Users\xinxin\Dropbox\xinxin_code\Smoke_Solver\x64\Debug\Smoke_Solver.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"x64\Debug\Smoke_Solver.exe.embed.manifest" /manifest x64\Debug\Smoke_Solver.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         Smoke_Solver.vcxproj -> C:\Users\xinxin\Dropbox\xinxin_code\Smoke_Solver\x64\Debug\Smoke_Solver.exe
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\Smoke_Solver.unsuccessfulbuild".
+         Touching "x64\Debug\Smoke_Solver.lastbuildstate".
+     1>Done Building Project "C:\Users\xinxin\Dropbox\xinxin_code\Smoke_Solver\Smoke_Solver\Smoke_Solver.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.86
