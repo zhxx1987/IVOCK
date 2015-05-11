@@ -3,3 +3,4 @@ you have to have intel TBB installed to compile the code.
 this method now is not fully stable, a more stable version that preserves circulation(in a 
 discrete sense) is on the way. 
 
+compile the particle renderer to render the simulation result. 
