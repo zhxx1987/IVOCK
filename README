@@ -3,4 +3,12 @@ you have to have intel TBB installed to compile the code.
 this method now is not fully stable, a more stable version that preserves circulation(in a 
 discrete sense) is on the way. 
 
+once compiled, run
+xx.exe file_path advection_scheme VC_value
+
+
+
 compile the particle renderer to render the simulation result. 
+once compiled, one renders the data by:
+Particle_renderer.exe  [path(the folder where Particle data stores, no space in name)] 
+particle_radius density_scale opacity light_x light_y light_z frame_start frame_end
