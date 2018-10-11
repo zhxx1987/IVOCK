@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="IVOCK" targetName="IVOCK_SIM" />
+      <config projectName="IVOCK" targetName="TBB_test" />
+      <config projectName="IVOCK" targetName="renderer" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="576847ce-1904-451a-844d-c99f96407471" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/AlgebraicMultigrid.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/GeometricLevelGen.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/GeometricLevelGen.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/OpenBC.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/Smoke_Solver.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/Smoke_Solver.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/Smoke_Solver.vcxproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/Smoke_solver3D.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/Smoke_solver3D.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/array1.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/array2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/array2_utils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/array3.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/array3_utils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/blas_wrapper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/fluid_particle.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/pcg_solver.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/sparse_matrix.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/util.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/vec.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Debug/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Debug/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Debug/Smoke_Solver.Build.CppClean.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Debug/Smoke_Solver.exe.embed.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Debug/Smoke_Solver.exe.embed.manifest.res" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Debug/Smoke_Solver.exe.intermediate.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Debug/Smoke_Solver.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Debug/Smoke_Solver.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Debug/Smoke_Solver_manifest.rc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Debug/Smoke_solver3D.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Debug/cl.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Debug/link-cvtres.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Debug/link-cvtres.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Debug/link.11608-cvtres.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Debug/link.11608-cvtres.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Debug/link.11608.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Debug/link.11608.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Debug/link.12864-cvtres.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Debug/link.12864-cvtres.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Debug/link.12864.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Debug/link.12864.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Debug/link.13816-cvtres.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Debug/link.13816-cvtres.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Debug/link.13816.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Debug/link.13816.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Debug/link.14652-cvtres.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Debug/link.14652-cvtres.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Debug/link.14652.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Debug/link.14652.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Debug/link.9404-cvtres.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Debug/link.9404-cvtres.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Debug/link.9404.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Debug/link.9404.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Debug/link.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Debug/link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Debug/link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Debug/main.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Debug/mt.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Debug/mt.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Debug/mt.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Debug/rc.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Debug/rc.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Debug/rc.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Debug/vc100.idb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Debug/vc100.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Release/Smoke_Solver.Build.CppClean.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_Solver/x64/Release/Smoke_Solver.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/TBB_SETTINGS.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/x64/Debug/Smoke_Solver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/x64/Debug/Smoke_Solver.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/x64/Debug/Smoke_Solver.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/x64/Debug/tbb.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/x64/Debug/tbb.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/x64/Debug/tbb_debug.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/x64/Debug/tbb_preview.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/x64/Debug/tbb_preview.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/x64/Debug/tbbmalloc.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/x64/Debug/tbbmalloc.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/x64/Release/tbb.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/x64/Release/tbb.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/x64/Release/tbb_preview.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/x64/Release/tbb_preview.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/x64/Release/tbbmalloc.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/x64/Release/tbbmalloc.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TBB_Multigrid/TBB_Multigrid.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TBB_Multigrid/TBB_Multigrid.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TBB_Multigrid/TBB_Multigrid/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TBB_Multigrid/TBB_Multigrid/Debug/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TBB_Multigrid/TBB_Multigrid/Debug/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TBB_Multigrid/TBB_Multigrid/Debug/TBB_Multigrid.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TBB_Multigrid/TBB_Multigrid/Debug/TBB_Multigrid.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TBB_Multigrid/TBB_Multigrid/Debug/TBB_Multigrid.unsuccessfulbuild" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TBB_Multigrid/TBB_Multigrid/Debug/cl.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TBB_Multigrid/TBB_Multigrid/Debug/vc100.idb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TBB_Multigrid/TBB_Multigrid/Debug/vc100.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TBB_Multigrid/TBB_Multigrid/Multigrid3D.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TBB_Multigrid/TBB_Multigrid/Multigrid3D.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TBB_Multigrid/TBB_Multigrid/TBB_Multigrid.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TBB_Multigrid/TBB_Multigrid/TBB_Multigrid.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TBB_Multigrid/TBB_Multigrid/TBB_Multigrid.vcxproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TBB_Multigrid/TBB_Multigrid/array.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TBB_Multigrid/TBB_Multigrid/cl.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TBB_Multigrid/TBB_Multigrid/cl.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TBB_Multigrid/TBB_Multigrid/fluid_buffer3D.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TBB_Multigrid/TBB_Multigrid/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TBB_Multigrid/TBB_Multigrid/x64/Debug/TBB_Multigrid.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TBB_Multigrid/TBB_Multigrid/x64/Debug/TBB_Multigrid.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TBB_Multigrid/TBB_Multigrid/x64/Release/TBB_Multigrid.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TBB_Multigrid/TBB_SETTINGS.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TBB_Multigrid/x64/Release/tbb.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TBB_Multigrid/x64/Release/tbb.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TBB_Multigrid/x64/Release/tbb_preview.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TBB_Multigrid/x64/Release/tbb_preview.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TBB_Multigrid/x64/Release/tbbmalloc.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TBB_Multigrid/x64/Release/tbbmalloc.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/particle_renderer/Debug/particle_renderer.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/particle_renderer/Debug/particle_renderer.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/particle_renderer/Release/vcomp90.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/particle_renderer/particle_renderer.ncb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/particle_renderer/particle_renderer.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/particle_renderer/particle_renderer.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/particle_renderer/particle_renderer/array1.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/particle_renderer/particle_renderer/array2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/particle_renderer/particle_renderer/bfstream.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/particle_renderer/particle_renderer/bfstream.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/particle_renderer/particle_renderer/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/particle_renderer/particle_renderer/obj_reader.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/particle_renderer/particle_renderer/obj_reader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/particle_renderer/particle_renderer/particle_renderer.vcproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/particle_renderer/particle_renderer/particle_renderer.vcproj.xinxin-PC.xinxin.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/particle_renderer/particle_renderer/read_particles.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/particle_renderer/particle_renderer/read_particles.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/particle_renderer/particle_renderer/render.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/particle_renderer/particle_renderer/render.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/particle_renderer/particle_renderer/shadow.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/particle_renderer/particle_renderer/shadow.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/particle_renderer/particle_renderer/text" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/particle_renderer/particle_renderer/util.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/particle_renderer/particle_renderer/vec.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/particle_renderer/particle_renderer/write_sgi.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/particle_renderer/particle_renderer/write_sgi.h" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1040557212">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="README" value="1" />
+          <entry key="cmath" value="1" />
+          <entry key="cpp" value="11" />
+          <entry key="h" value="30" />
+          <entry key="txt" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CMakeLists.txt" value="12" />
+          <entry key="ObjectiveC" value="42" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.cidr.testingFrameworks.usages" />
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cpp" value="19" />
+          <entry key="h" value="303" />
+          <entry key="txt" value="498" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CMakeLists.txt" value="498" />
+          <entry key="ObjectiveC" value="322" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Multigrid3D.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9741">
+              <caret line="573" column="26" selection-start-line="573" selection-start-column="26" selection-end-line="573" selection-end-column="26" />
+              <folding>
+                <element signature="e#49#66#0" expanded="true" />
+                <element signature="e#592#601#0" expanded="true" />
+                <element signature="e#4095#4104#0" expanded="true" />
+                <element signature="e#5827#5836#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="108" column="18" selection-start-line="108" selection-start-column="18" selection-end-line="108" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#16#0" expanded="true" />
+                <element signature="e#65#83#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/vec.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="354" column="22" selection-start-line="354" selection-end-line="355" />
+              <folding>
+                <element signature="e#29#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/array.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+              <folding>
+                <element signature="e#42#60#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/util.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="245" column="26" selection-start-line="245" selection-start-column="20" selection-end-line="245" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_solver3D.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="113" column="22" lean-forward="true" selection-start-line="113" selection-start-column="22" selection-end-line="113" selection-end-column="22" />
+              <folding>
+                <element signature="e#50#68#0" expanded="true" />
+                <element signature="e#117#144#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/sparse_matrix.h">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/AlgebraicMultigrid.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_solver3D.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1009">
+              <caret line="938" column="26" selection-start-line="938" selection-start-column="20" selection-end-line="938" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>xk</find>
+      <find>bk</find>
+      <find>rk</find>
+      <find>systemk</find>
+      <find>ivick</find>
+      <find>_ppe_solver</find>
+      <find>setEmitter</find>
+      <find>m_max_level</find>
+      <find>inline unsigned int hash</find>
+      <find>hash</find>
+      <find>memset</find>
+      <find>output</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>this-&gt;xk</replace>
+      <replace>this-&gt;bk</replace>
+      <replace>this-&gt;rk</replace>
+      <replace>this-&gt;systemk</replace>
+      <replace>this-&gt;m_max_level</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/particle_renderer/render.h" />
+        <option value="$PROJECT_DIR$/particle_renderer/shadow.h" />
+        <option value="$PROJECT_DIR$/particle_renderer/array1.h" />
+        <option value="$PROJECT_DIR$/particle_renderer/util.h" />
+        <option value="$PROJECT_DIR$/particle_renderer/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/TBB_Multigrid/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/fluid_particle.h" />
+        <option value="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/fluid_buffer3D.h" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/GeometricLevelGen.h" />
+        <option value="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_solver3D.cpp" />
+        <option value="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_solver3D.h" />
+        <option value="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Multigrid3D.h" />
+        <option value="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/main.cpp" />
+        <option value="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/vec.h" />
+        <option value="$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/array.h" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="65" />
+    <option name="y" value="-4" />
+    <option name="width" value="1855" />
+    <option name="height" value="1084" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="IVOCK" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IVOCK" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../simpleFluid2D" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.renderer">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IVOCK_SIM" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="IVOCK" TARGET_NAME="IVOCK_SIM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="IVOCK" RUN_TARGET_NAME="IVOCK_SIM">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TBB_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="IVOCK" TARGET_NAME="TBB_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="IVOCK" RUN_TARGET_NAME="TBB_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="renderer" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="IVOCK" TARGET_NAME="renderer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="IVOCK" RUN_TARGET_NAME="renderer">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.renderer" />
+      <item itemvalue="Application.IVOCK_SIM" />
+      <item itemvalue="Application.TBB_test" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="576847ce-1904-451a-844d-c99f96407471" name="Default Changelist" comment="" />
+      <created>1539149910364</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539149910364</updated>
+      <workItem from="1539149911514" duration="11991000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="11991000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2498618" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="CMake" order="8" visible="true" weight="0.3294979" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/particle_renderer/read_particles.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/particle_renderer/obj_reader.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/particle_renderer/render.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/particle_renderer/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/particle_renderer/array1.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/particle_renderer/util.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding>
+            <element signature="e#197#218#0" expanded="true" />
+            <element signature="e#3865#4124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/particle_renderer/bfstream.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/particle_renderer/write_sgi.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/particle_renderer/write_sgi.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <folding>
+            <element signature="e#41#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/particle_renderer/shadow.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+          <folding>
+            <element signature="e#35#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/particle_renderer/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TBB_Multigrid/array.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TBB_Multigrid/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TBB_Multigrid/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/fluid_particle.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="147" column="38" selection-start-line="147" selection-start-column="38" selection-end-line="147" selection-end-column="38" />
+          <folding>
+            <element signature="e#54#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TBB_Multigrid/fluid_buffer3D.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="155" selection-start-line="155" selection-end-line="155" />
+          <folding>
+            <element signature="e#43#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/fluid_buffer3D.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding>
+            <element signature="e#43#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/GeometricLevelGen.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="245" column="21" selection-start-line="245" selection-start-column="21" selection-end-line="245" selection-end-column="21" />
+          <folding>
+            <element signature="e#54#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Multigrid3D.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9741">
+          <caret line="573" column="26" selection-start-line="573" selection-start-column="26" selection-end-line="573" selection-end-column="26" />
+          <folding>
+            <element signature="e#49#66#0" expanded="true" />
+            <element signature="e#592#601#0" expanded="true" />
+            <element signature="e#4095#4104#0" expanded="true" />
+            <element signature="e#5827#5836#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/AlgebraicMultigrid.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/sparse_matrix.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/include/c++/5/cmath">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/util.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="245" column="26" selection-start-line="245" selection-start-column="20" selection-end-line="245" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/vec.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="354" column="22" selection-start-line="354" selection-end-line="355" />
+          <folding>
+            <element signature="e#29#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/array.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding>
+            <element signature="e#42#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="108" column="18" selection-start-line="108" selection-start-column="18" selection-end-line="108" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+            <element signature="e#65#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_solver3D.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1009">
+          <caret line="938" column="26" selection-start-line="938" selection-start-column="20" selection-end-line="938" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke_Solver_Most_UpToDate/Smoke_solver3D.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="113" column="22" lean-forward="true" selection-start-line="113" selection-start-column="22" selection-end-line="113" selection-end-column="22" />
+          <folding>
+            <element signature="e#50#68#0" expanded="true" />
+            <element signature="e#117#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
