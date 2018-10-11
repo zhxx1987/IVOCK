@@ -2,6 +2,7 @@
 #define __buffer_h__
 
 #include "array.h"
+#include <cmath>
 #include <vector>
 
 using namespace std;

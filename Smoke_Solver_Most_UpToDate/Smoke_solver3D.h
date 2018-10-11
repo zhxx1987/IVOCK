@@ -18,6 +18,7 @@
 #include "GeometricLevelGen.h"
 
 #include "AlgebraicMultigrid.h"
+#include <Partio.h>
 //using namespace gf;
 using namespace std;
 class SmokeSolver3D
@@ -90,7 +91,7 @@ public:
 			tracers[i] = Vec4f(pos[0],pos[1],pos[2], tracers[i][3]/(1.0+0.1*dt));
 		});
 	}
-	void write_tracers(char * file_path, int frame)
+	void write_tracoers(char * file_path, int frame)
 	{
 		char file_name[256];
 		sprintf(file_name,"%s/Particle_data%04d.bin", file_path,frame);
@@ -472,6 +473,7 @@ public:
 	void compute_rhs(float scale);
 	void apply_grad();
 	void output(uint nx, uint ny, uint nz, int frame, char* file_path);
+	void write_bgeo(uint nx, uint ny, uint nz, int frame, const std::string& file_path);
 };
 
 

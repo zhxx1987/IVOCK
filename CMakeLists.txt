@@ -107,6 +107,7 @@ endfunction(add_IVOCK_executable)
 
 enable_testing()
 
+add_subdirectory(Deps)
 add_subdirectory(particle_renderer)
 add_subdirectory(Smoke_Solver_Most_UpToDate)
 

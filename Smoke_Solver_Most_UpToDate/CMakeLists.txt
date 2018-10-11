@@ -6,3 +6,4 @@ set(SOURCE_FILES main.cpp
 
 add_IVOCK_executable(IVOCK_SIM ${SOURCE_FILES})
 target_link_libraries(IVOCK_SIM PRIVATE ${TBB_LIBRARIES})
+target_link_libraries(IVOCK_SIM PRIVATE partio)

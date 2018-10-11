@@ -1019,6 +1019,50 @@ void SmokeSolver3D::output( uint nx, uint ny, uint nz, int frame, char* file_pat
 	delete[] field;
 	delete[] field_t;
 }
+
+void SmokeSolver3D::write_bgeo(uint nx, uint ny, uint nz, int frame, const std::string& file_path)
+{
+    Partio::ParticlesDataMutable* parts = Partio::create();
+    Partio::ParticleAttribute posH, vH, rhoH, tH;
+
+    posH = parts->addAttribute("position", Partio::VECTOR, 3);
+    vH = parts->addAttribute("v", Partio::VECTOR, 3);
+    rhoH = parts->addAttribute("rho", Partio::VECTOR, 1);
+    tH = parts->addAttribute("T", Partio::VECTOR, 1);
+
+    for(int k=0;k<nz;k++)for(int j=0;j<ny;j++)for(int i=0;i<nx;i++)
+    {
+
+        Vec3f pos = _hx*Vec3f(i,j,k);
+        Vec3f vel = get_velocity(pos);
+        int idx = parts->addParticle();
+        float* p = parts->dataWrite<float>(posH, idx);
+        float* v = parts->dataWrite<float>(vH, idx);
+        float* r = parts->dataWrite<float>(rhoH, idx);
+        float* t = parts->dataWrite<float>(tH, idx);
+
+        for(int ii=0; ii<3; ii++)
+        {
+            p[ii] = pos.v[ii];
+            v[k] = vel.v[ii];
+        }
+
+        if(_b_desc(i,j,k)==0){
+            r[0] = 0.5*max(_rho(i,j,k),0.0f)/10.0;
+            t[0] = _Tbf(i,j,k);
+        }
+        else
+        {
+            r[0] =0;
+            t[0] = 0;
+        }
+    }
+
+
+    Partio::write(file_path.c_str(), *parts);
+    parts->release();
+}
+
 void SmokeSolver3D::mark_boundary()
 {
 	_boundary_marker.setZero();
