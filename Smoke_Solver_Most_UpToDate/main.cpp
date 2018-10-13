@@ -231,13 +231,12 @@ int main(int argc, char** argv) {
 			//for(int subs=0; subs<2;subs++)
 			g_smokeSolver.time_step(0.02, advection_type);
 
-            std::string path(argv[1]);
-			g_smokeSolver.write_bgeo(g_smokeSolver._nx,
-				g_smokeSolver._ny,
-				g_smokeSolver._nz,
-				frame,
-				path);
-//			g_smokeSolver.write_tracers(file_path,frame);
+//			g_smokeSolver.write_bgeo(g_smokeSolver._nx,
+//				g_smokeSolver._ny,
+//				g_smokeSolver._nz,
+//				frame,
+//				file_path);
+			g_smokeSolver.write_tracers_bgeo(file_path,frame);
 			printf("frame %d done\n",frame);
 		}
 		clock_t end = clock();

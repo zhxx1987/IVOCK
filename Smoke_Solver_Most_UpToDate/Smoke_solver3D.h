@@ -30,6 +30,7 @@ public:
 	float emitter_r;
 	uint  emitter_n;
 	vector<Vec4f> tracers;
+	vector<float> tracers_T;
 	float frand(float a, float b)
 	{
 		return a + (b-a)*((float)(rand()%RAND_MAX)/(float)RAND_MAX);
@@ -91,7 +92,7 @@ public:
 			tracers[i] = Vec4f(pos[0],pos[1],pos[2], tracers[i][3]/(1.0+0.1*dt));
 		});
 	}
-	void write_tracoers(char * file_path, int frame)
+	void write_tracers(char * file_path, int frame)
 	{
 		char file_name[256];
 		sprintf(file_name,"%s/Particle_data%04d.bin", file_path,frame);
@@ -114,6 +115,37 @@ public:
 		fclose(data_file);
 		delete []data;
 	}
+	void write_tracers_bgeo(char * file_path, int frame)
+    {
+        Partio::ParticlesDataMutable* parts = Partio::create();
+        Partio::ParticleAttribute posH, rhoH, tH;
+
+        posH = parts->addAttribute("position", Partio::VECTOR, 3);
+        rhoH = parts->addAttribute("rho", Partio::VECTOR, 1);
+        tH = parts->addAttribute("temperature", Partio::VECTOR, 1);
+
+        for (int i=0; i < tracers.size(); i++)
+        {
+            int idx = parts->addParticle();
+            float* p = parts->dataWrite<float>(posH, idx);
+            float* r = parts->dataWrite<float>(rhoH, idx);
+            float* t = parts->dataWrite<float>(tH, idx);
+            float x = tracers[i][0];
+            float y = tracers[i][1];
+            float z = tracers[i][2];
+            p[0] = x/_lx - 0.5;
+            p[1] = y/_lx;
+            p[2] = z/_lx - 0.5;
+            r[0] = _rho.sample_linear(x, y, z);
+            t[0] = _Tbf.sample_linear(x, y, z);
+        }
+
+        char file_name[256];
+        sprintf(file_name,"%s/Particle_data%04d.bgeo", file_path,frame);
+        std::string file(file_name);
+        Partio::write(file.c_str(), *parts);
+        parts->release();
+    }
 	uint _nx, _ny, _nz, _n;
 	float _hx, _hy, _hz;
 	float _lx, _ly, _lz;
@@ -473,7 +505,7 @@ public:
 	void compute_rhs(float scale);
 	void apply_grad();
 	void output(uint nx, uint ny, uint nz, int frame, char* file_path);
-	void write_bgeo(uint nx, uint ny, uint nz, int frame, const std::string& file_path);
+	void write_bgeo(uint nx, uint ny, uint nz, int frame, char* file_path);
 };
 
 
